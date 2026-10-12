@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.soham3301.display-particles",
+  "name": "Display Particles",
+  "version": "1.0.0",
+  "author": "Soham Datta",
+  "license": "MIT",
+  "description": "A calm storm of drifting particles over your desktop, to quiet a busy developer mind. Sand, snow, ash, fire or your theme colors, with an auto mode that changes the weather by itself.",
+  "kinds": ["overlay", "bar-widget"],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "Overlay.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Display Particles",
+    "category": "Appearance",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
